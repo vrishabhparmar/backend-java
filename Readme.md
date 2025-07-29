@@ -462,20 +462,26 @@ class Worker{
     public void produce() throws InterruptedException {
         synchronized (lock)
         {
-            while(true)
-            {
-                if(container.size() == top){
-                    System.out.println("Container is full! waiting for the items to be removed");
-                    lock.wait();
-                }
-                else {
-                    System.out.println(sequence + " added to the container");
-                    container.add(sequence++);
-                    lock.notify();
-                }
+            try{
+               while(true)
+               {
+                  if(container.size() == top){
+                     System.out.println("Container is full! waiting for the items to be removed");
+                     lock.wait();
+                  }
+                  else {
+                     System.out.println(sequence + " added to the container");
+                     container.add(sequence++);
+                     lock.notify();
+                  }
 
-                Thread.sleep(500);
+                  Thread.sleep(500);
+               }
             }
+            catch (Exception e){
+               System.out.println(e.getMessage());
+            }
+            
         }
     }
     public void consume() throws InterruptedException{
@@ -789,6 +795,8 @@ Other common implementation of Blocking Queue
 ### Locks
 
 ### Locks Conditions
+
+
 
 
 
