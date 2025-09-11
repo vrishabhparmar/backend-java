@@ -1,3 +1,5 @@
+package week1;
+
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -25,7 +27,7 @@ class Task implements Runnable{
     @Override
     public void run()
     {
-        System.out.println("Task with ID " + taskId + " bieng executed by Thread " + Thread.currentThread().getName());
+        System.out.println("week1.Task with ID " + taskId + " bieng executed by Thread " + Thread.currentThread().getName());
         try{
             Thread.sleep(500);
         }

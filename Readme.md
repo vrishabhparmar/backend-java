@@ -1,4 +1,4 @@
-# Java Backend Course 
+# Java and SQL 
 
 ## Week 1
 
@@ -416,6 +416,7 @@ consumer threads retrieve and process the data from the buffer concurrently.
 
 import java.util.ArrayList;
 import java.util.List;
+import week1.*;
 
 public class ProducerConsumer {
 
@@ -795,6 +796,18 @@ Other common implementation of Blocking Queue
 ### Locks
 
 ### Locks Conditions
+
+### Reentrant lock
+
+### Read Write lock
+
+### Wait Queue in Read Write lock
+
+## Spring Boot Tutorial
+
+### Building a REST-full Webservice
+
+
 
 
 
