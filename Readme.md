@@ -807,6 +807,37 @@ Other common implementation of Blocking Queue
 
 ### Building a REST-full Webservice
 
+## ORM (Object relational Model)
+
+      ORM is a technique used to map Java Objects to database tables; It allows developers to work with databases using OOPS
+      concepts, making it easier to interact with relatinal databases. 
+      ORM frameworks like Hibernate can map the fields in the User class to coulumns in the user table. making it 
+      easies for CRUD operations
+
+## JPA (Java Persistence API)
+
+      A way to acheive ORM, includes interfaces and annotations that you use in your Java classes, requires a persistance provider
+      (ORM tools) for implementation 
+      To use JPA, you need a persistance provider. A persistence provider is a specific implementation of the JPA implementation.
+      Example of JPA persistence provider includes Hibernate, EclipseLink, and OpenJPA. 
+      These providers implement the JPA interface and provide the underlying functionality to interact with the databases.
+
+## Spring Data JPA 
+
+      Spring Data JPA is a built on top of the JPA specification, but not JPA implentation itself. Instead it simplefies working with JPA
+      by providing higher level abstraction and utilities. However, to use Spring Data JPA effectively,  you still need a JPA implementation
+      , such as Hibernate, EclipseLink, or another JPA-compliant provider, to handle the actual database interations. 
+
+      In case of MongoDB, you don't have traditional JPA persistence provider. MongoDB is a NoSql database., and Spring Data MongoDB 
+      serves as a "persistance provider" for MongoDB
+      
+      It provides the necessary abstrctions and implementations to work with the MongoDB in a Spring Application.
+
+Query Method DSL and Criteria API are two different ways to interact with the database when using Spring Data JPA for relational databases
+and Spring Data Mongo DB for MongoDB databases.  
+
+**Query Method DSL** is a simple and convenient way to create queries based on method naming conventions, while the **Criteria API** offers a more dynamic and programmatic 
+approach for building complex and custom queries
 
 
 
