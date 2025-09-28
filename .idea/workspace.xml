@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86ac87ce-d536-49c8-8f92-e56571bfec81" name="Changes" comment="Week 1: Multi-threading">
-      <change afterPath="$PROJECT_DIR$/src/streams/IntermidiateOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/TerminalOps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/JavaStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/IntermidiateOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/IntermidiateOps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     "Application.CallableDemo.executor": "Run",
     "Application.CallableFixedThreadPool.executor": "Run",
     "Application.FixedThreadPoolDemo.executor": "Run",
+    "Application.IntermidiateOps.executor": "Run",
     "Application.Java8Features.executor": "Run",
     "Application.JavaStreams.executor": "Run",
     "Application.ProducerConsumer.executor": "Run",
