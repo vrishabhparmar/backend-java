@@ -839,7 +839,16 @@ and Spring Data Mongo DB for MongoDB databases.
 **Query Method DSL** is a simple and convenient way to create queries based on method naming conventions, while the **Criteria API** offers a more dynamic and programmatic 
 approach for building complex and custom queries
 
+## Connecting MongoDB using Spring Data MongoDB
 
+## Status codes
+
+## Project Lombok
+
+## MongoDB Relationships in Spring Boot
+
+
+ 
 
 
 
