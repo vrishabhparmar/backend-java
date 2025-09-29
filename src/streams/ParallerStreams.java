@@ -1,5 +1,6 @@
 package streams;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.OptionalInt;
@@ -51,6 +52,19 @@ public class ParallerStreams {
 
         OptionalInt reduce = IntStream.range(1, 5).reduce((a, b) -> a * b);
         reduce.ifPresent(System.out::println);
+
+        //Cumulative Sum
+        int[] arr = new int[]{1,2,3,4,5};
+        IntStream int_stream = Arrays.stream(arr);
+        //int_stream.reduce(Integer::sum).ifPresent(System.out::println);
+        final int[] sum = {0};
+        int[] array = int_stream.map(x -> {
+            int i = x + sum[0];
+            sum[0] = i;
+            return sum[0];
+        }).toArray();
+
+        Arrays.stream(array).forEach(System.out::println);
 
 
 

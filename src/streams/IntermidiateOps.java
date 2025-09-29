@@ -25,6 +25,11 @@ public class IntermidiateOps {
         Stream<String> sorted2 = list.stream().sorted((a,b) -> a.length() - b.length()).distinct();
         sorted2.forEach(System.out::println);
 
+        // peek
+
+        // flatmap
+
+
 
     }
 }
