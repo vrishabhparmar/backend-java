@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86ac87ce-d536-49c8-8f92-e56571bfec81" name="Changes" comment="Week 1: Multi-threading">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/CollectorsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/CollectorsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/PrimitiveStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/PrimitiveStreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
     "Application.Java8Features.executor": "Run",
     "Application.JavaStreams.executor": "Run",
     "Application.ParallerStreams.executor": "Run",
+    "Application.PrimitiveStreams.executor": "Run",
     "Application.ProducerConsumer.executor": "Run",
     "Application.ScheduledExecutorDemo.executor": "Run",
     "Application.SingleThreadExecutorDemo.executor": "Run",
