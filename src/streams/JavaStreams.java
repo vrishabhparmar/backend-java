@@ -37,7 +37,6 @@ public class JavaStreams {
         Stream.iterate(1, x -> x + 1).limit(100).forEach(System.out::print);
 
 
-
         //
     }
 }

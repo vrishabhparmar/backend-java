@@ -28,8 +28,17 @@ public class IntermidiateOps {
         // peek
 
         // flatmap
+        // If we have a 2d list how to flatten it
+        List<List<Integer>> d_list = Arrays.asList(Arrays.asList(1, 23, 4), Arrays.asList(1, 3, 4, 5));
+        List<Integer> list1 = d_list.stream().flatMap(Collection::stream).toList();
+        System.out.println(list1);
 
+        List<String> sentences = Arrays.asList("I love Java", "Java is powerful");
+        List<String[]> list2 = sentences.stream().map(item -> item.split(" ")).toList();
+        Stream<String> stringStream1 = list2.stream().flatMap(Arrays::stream);
+        stringStream1.forEach(System.out::println);
 
+        // Primitive
 
     }
 }
