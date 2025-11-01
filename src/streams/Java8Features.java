@@ -2,6 +2,7 @@ package streams;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.OptionalInt;
 import java.util.function.*;
 import java.util.stream.Collectors;
 
@@ -103,7 +104,13 @@ public class Java8Features {
         list1.stream().map(m -> new MobilePhones(m)).collect(Collectors.toList());
         List<MobilePhones> mobilePhones = list1.stream().map(MobilePhones::new).collect(Collectors.toList());
 
+        String s = "hello";
+        List<String> collect = Arrays.stream(s.split("")).map(String::toUpperCase).toList();
+        collect.forEach(System.out::print);
 
+        int[] arr = {1,2,3,4,5};
+        OptionalInt reduce = Arrays.stream(arr).reduce(Integer::sum);
+        reduce.ifPresent(System.out::print);
     }
 
 }

@@ -25,7 +25,7 @@ public class TerminalOps {
 
         // 4. count
 
-        // 5. anyMath, allMatch, noneMath
+        // 5. anyMatch, allMatch, noneMath
         boolean b = collect.stream().anyMatch(x -> x % 2 == 0); // any one
         System.out.println(b);
 
