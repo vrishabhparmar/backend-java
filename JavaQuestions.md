@@ -1,136 +1,139 @@
-# What is Spring boot?
+# Java Spring Boot questions
 
-# Diff between Spring and Spring Boot?
+## What is Spring boot?
 
-# Dependency Injection and how it is implemented?
 
-# Situation where constructor injection is preferred over setter?
+## Diff between Spring and Spring Boot?
 
-# @SpringBootApplication, Explain the internals?
+## Dependency Injection and how it is implemented?
 
-# Spring Profiler 
+## Situation where constructor injection is preferred over setter?
 
-# Database Connection in Spring Boot?
+## @SpringBootApplication, Explain the internals?
 
-# Singleton Pattern? Where it is used?
+## Spring Profiler 
 
-# @Transaction
+## Database Connection in Spring Boot?
+
+## Singleton Pattern? Where it is used?
+
+## @Transaction
 
 ## If we mention @Transaction at both class level and method level. What issues will arise?
 
 ## How to handle a scenario where a transaction needs to be rolled back due to operation on Remote service failure?
 
-# How to implement Notification system? What us Java Email?
+## How to implement Notification system? What us Java Email?
 
-# How do you perform deployment ?
+## How do you perform deployment ?
 
-# How does Spring Boot simplifies Web development?
+## How does Spring Boot simplifies Web development?
 
-# Servers in Spring Boot?
+## Servers in Spring Boot?
 
 ## How to replace default server in Spring Boot?
 
-# Database Migration in Spring Boot?
+## Database Migration in Spring Boot?
 
-# Spring Boot Actuators ?
+## Spring Boot Actuators ?
 
-# JPA (Java Persistent API) vs Spring Boot Data JPA
+## JPA (Java Persistent API) vs Spring Boot Data JPA
 
-# If you want to dynamically fetch data with variable search criteria. How will you implement it using Spring Data?
+## If you want to dynamically fetch data with variable search criteria. How will you implement it using Spring Data?
 
-# How to write custom queries in Spring Boot?
+## How to write custom queries in Spring Boot?
 
-# Repository in Spring Data JPA and its limitations?
+## Repository in Spring Data JPA and its limitations?
 
-# How do you handle transactions in Spring Data JPA?
+## How do you handle transactions in Spring Data JPA?
 
-# If you have long batch operations then how can you manage transactions to optimize performance and consistency 
+## If you have long batch operations then how can you manage transactions to optimize performance and consistency 
 
-# Diff between == vs .equals()
+## Diff between == vs .equals()
 
-# How would you handle a situation where you need to compare the content equality of two custom Object instance?
+## How would you handle a situation where you need to compare the content equality of two custom Object instance?
 
-# Java Memory Model?
+## Java Memory Model?
 
-# Final Keywords?
+## Final Keywords?
 
-# HashMaps working
+## HashMaps working
 
-# If you are storing users sessions data in an HashMap how will you make sure thread safety?
+## If you are storing users sessions data in an HashMap how will you make sure thread safety?
 
-# Exception Handling (Checked and Unchecked)
+## Exception Handling (Checked and Unchecked)
 
-# How would you handle a scenario where a method throws multiple types of exception 
+## How would you handle a scenario where a method throws multiple types of exception 
 
-# JUnit
+## JUnit
 
-# Maven
+## Maven
 
-# Maven clean vs Maven install
+## Maven clean vs Maven install
 
-# With Git commands how to resolve a conflict 
+## With Git commands how to resolve a conflict 
 
-# Git rebase vs Git merger
+## Git rebase vs Git merger
 
-# Git cherry pick 
+## Git cherry pick 
 
-# Best Practice while writing a REST API
+## Best Practice while writing a REST API
 
-# Lambda expression and its benefits
+## Lambda expression and its benefits
 
-# This keyword
+## This keyword
 
-# Functional Interface (Predicate, Consumer, Functional)
+## Functional Interface (Predicate, Consumer, Functional)
 
-# Can you add another method to a Functional Interface?
+## Can you add another method to a Functional Interface?
 
-# Options class in Java 8 and what problems does it solve?
+## Options class in Java 8 and what problems does it solve?
 
-# Java 8 features
+## Java 8 features
 
-# If two interface provide some method and your class implements them. How do you resolve the conflict
+## If two interface provide some method and your class implements them. How do you resolve the conflict
 
-# Map vs flatMap
+## Map vs flatMap
 
-# Java time API 
+## Java time API 
 
-# What makes a class immutable 
+## What makes a class immutable 
 
-# If a class contains date then how do you insure immutability 
+## If a class contains date then how do you insure immutability 
 
-# ENUM and its benefits
+## ENUM and its benefits
 
 ## Can ENUM implement interface?
 
 ## Lets say you are working with a payment system then how will you make use of ENUM?
 
-# SOLID principles 
+## SOLID principles 
 
-# Why do we need design pattern 
+## Why do we need design pattern 
 
-# @RequestMapping vs @Get vs @Post
+## @RequestMapping vs @Get vs @Post
 
-# @Valid vs @Validated
+## @Valid vs @Validated
 
-# @ControllerAdvice
+## @ControllerAdvice
 
-# Diff between returning @ResponseEntity vs Returning n Object?
+## Diff between returning @ResponseEntity vs Returning n Object?
 
-# @Autowired internal working
+## @Autowired internal working
 
-# Top 5 annotation
+## Top 5 annotation
 
-# Least Frequently used annotation 
+## Least Frequently used annotation 
 
-# Project Lombok
+## Project Lombok
 
-# Agile vs Waterfall 
+## Agile vs Waterfall 
 
-# Spring Boot version specific questions
+## Spring Boot version specific questions
 
 ## What Spring boot version you are using?
 
-# SpringBoot3 
+## SpringBoot3 
 
 ## Spring Boot Tutorial
 
