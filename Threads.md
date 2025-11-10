@@ -10,11 +10,73 @@ Parallelism is a type of computation in which multiple processors carry out many
 
 ### Process vs Threads
 
+| Concept     | Description                                                                                          |
+| ----------- | ---------------------------------------------------------------------------------------------------- |
+| **Process** | A **program in execution**. It has its own memory space and system resources.                        |
+| **Thread**  | A **lightweight subunit** of a process — shares the same memory and resources of its parent process. |
+
+| Aspect             | **Process**                                         | **Thread**                                                             |
+| ------------------ | --------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Memory**         | Each process has **its own memory** (heap + stack). | Threads **share** the same memory (heap) but have their **own stack**. |
+| **Resource Usage** | Heavy — requires more memory and CPU time.          | Light — less memory and faster context switching.                      |
+
+|                   | **Process**                                                                 | **Thread**                                           |
+| ----------------- | --------------------------------------------------------------------------- | ---------------------------------------------------- |
+| **Communication** | Uses **Inter-Process Communication (IPC)** — slower (e.g., sockets, pipes). | Communicate **directly** via shared memory — faster. |
+
+|                  | **Process**                                           | **Thread**                                                 |
+| ---------------- | ----------------------------------------------------- | ---------------------------------------------------------- |
+| **Crash Effect** | If one process crashes, it **doesn’t affect others**. | If one thread crashes, it **can crash the whole process**. |
+
+
+Process Example
+
+When you open Chrome and VS Code, they are two different processes — each with its own memory space.
+
+Thread Example
+
+When Chrome loads multiple tabs, each tab runs in a separate thread (or lightweight process) within Chrome
+
+
 ### Time slicing Algo
 
+Time slicing is a CPU scheduling technique used in multitasking operating systems to ensure that each process (or thread) gets a small equal amount of CPU time, called a time slice or time quantum.
+
+⚙️ How It Works
+- The CPU maintains a ready queue of all processes that are ready to execute.
+- Each process gets the CPU for a fixed time slice (e.g., 100 ms).
+- When the time slice expires: If the process has finished → it’s removed from the queue OR If it’s not finished → it’s moved to the end of the queue.
+- 
 ### Pros and Cons of Multithreading
 
 ### Thread life cycle
+
+1. New (Born)
+- A thread is created but not yet started.
+- Created using:
+  - Thread t = new Thread();
+- The thread is not running yet — it just exists.
+
+2. Runnable (Ready to run)
+- After calling t.start(), the thread moves to the Runnable state.
+- It’s ready to run but waiting for CPU time.
+- Scheduler decides when it actually runs.
+
+3. Running
+- The thread is actually executing its run() method.
+- Only one thread runs per CPU core at a time.
+
+4. Blocked / Waiting / Timed Waiting
+- Thread is temporarily inactive because it’s waiting for some condition:
+   - Blocked: waiting to acquire a monitor lock (e.g., synchronized block).
+   - Waiting: waiting indefinitely for another thread to perform an action (e.g., wait()).
+   - Timed Waiting: waiting for a specific time (e.g., sleep(5000) or join(1000)).
+
+5. Terminated (Dead)
+- The thread’s run() method has finished or exited due to an exception.
+- Once terminated, it cannot be restarted.
+
+
 
 ### Runnable interface
 

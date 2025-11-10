@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86ac87ce-d536-49c8-8f92-e56571bfec81" name="Changes" comment="Week 1: Multi-threading">
+      <change afterPath="$PROJECT_DIR$/src/javaspringboot/DependencyInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaspringboot/WithOutDependencyInjection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaQuestions.md" beforeDir="false" afterPath="$PROJECT_DIR$/JavaQuestions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Threads.md" beforeDir="false" afterPath="$PROJECT_DIR$/Threads.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,30 +41,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CallableDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CallableFixedThreadPool.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectorsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FixedThreadPoolDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntermidiateOps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Java8Features.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ParallerStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimitiveStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProducerConsumer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScheduledExecutorDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingleThreadExecutorDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TerminalOps.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/vrishabhparmar/IdeaProjects/BackEndJava&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/vrishabhparmar/IdeaProjects/BackEndJava/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CallableDemo.executor": "Run",
+    "Application.CallableFixedThreadPool.executor": "Run",
+    "Application.CollectorsDemo.executor": "Run",
+    "Application.DependencyInjectionDemo.executor": "Run",
+    "Application.FixedThreadPoolDemo.executor": "Run",
+    "Application.IntermidiateOps.executor": "Run",
+    "Application.Java8Features.executor": "Run",
+    "Application.JavaStreams.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ParallerStreams.executor": "Run",
+    "Application.PrimitiveStreams.executor": "Run",
+    "Application.ProducerConsumer.executor": "Run",
+    "Application.ScheduledExecutorDemo.executor": "Run",
+    "Application.SingleThreadExecutorDemo.executor": "Run",
+    "Application.TerminalOps.executor": "Run",
+    "Application.WithOutDependencyInjection.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/vrishabhparmar/IdeaProjects/BackEndJava",
+    "onboarding.tips.debug.path": "/Users/vrishabhparmar/IdeaProjects/BackEndJava/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
